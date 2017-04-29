@@ -1,0 +1,62 @@
+body{background: url("../img/fond.png");margin: 0px;padding: 0px;width: 1200px;margin-left:auto;margin-right:auto;word-wrap: break-word;font-family: Myriad Pro;}
+header{background: url("../img/haut.png") no-repeat;width: 809px;height: 408px;margin-left:auto;margin-right:auto;margin-bottom:-100px;}
+footer{background: url("../img/footer.png") no-repeat;width:585px;height:138px;margin-left:auto;margin-right:auto;color:white;text-align:center;}
+footer font{margin-left: -60px;}
+a{text-decoration: none;color:#e6e6e6;}
+a:hover{text-shadow: 0px 1px 3px white;}
+#contenu{width: 1030px;margin-left:auto;margin-right:auto;color: #e6e6e6;}
+#contenu .haut{height:10px;background: url("../img/contenu/haut.png") no-repeat;}
+#contenu .fond{background: url("../img/contenu/fond.png") repeat-y;padding-top:5px;padding-left: 5px;padding-right: 5px;min-height:1000px;}
+#contenu .bas{height:10px;background: url("../img/contenu/bas.png") no-repeat;}
+#menu{width:252px;float: left;margin-top:-10px;background-repeat: repeat-y;font-size: 12px;}
+#menu .module_connexion{background: url("../img/menu/connexion/module.png") no-repeat;height:174px;width:252px;padding-top: 35px;}
+#menu input[type="text"],#menu input[type="password"]{background: url("../img/menu/connexion/input.png") no-repeat;height:23px;width:183px;outline: none;border: none;text-align: center;color:#e6e6e6;}
+#menu .module_connexion .connexion{outline: none;border: none;background: url("../img/menu/connexion/submit_connexion.png") no-repeat;height:22px;width:130px;cursor: pointer;}
+#menu .module_connexion .connexion:hover{background-position: 0px -22px;}
+#menu .module_connexion .deconnexion{outline: none;border: none;background: url("../img/menu/connexion/submit_deconnexion.png") no-repeat;height:22px;width:130px;cursor: pointer;}
+#menu .module_connexion .deconnexion:hover{background-position: 0px -22px;}
+#menu .vote{background: url("../img/menu/vote.png") no-repeat;height:41px;width:252px;border: none;margin-top:-35px;}
+#menu .vote:hover{background-position: 0px -41px;}
+#menu .boutique{background: url("../img/menu/boutique.png") no-repeat;height:41px;width:252px;}
+#menu .boutique:hover{background-position: 0px -41px;}
+#menu .sous_menu{text-align:center;font-size:22px;}
+#menu .sous_menu .titre{background-repeat: no-repeat;height:32px;width:252px;}
+#menu .sous_menu .rubrique{background: url("../img/menu/rubrique.png") no-repeat;height:21px;width:252px;font-size:16px;padding-top:1px;margin-bottom:-1px;}
+#menu .sous_menu .rubrique:hover{background-position: 0px -21px;}
+#page{margin-left: 252px;}
+#page .infos{background: url("../img/contenu/barre/infos.png") no-repeat;height:43px;width:769px;margin-left:-1px;margin-top: -10px;margin-bottom: 10px;}
+#page .titre{background: url("../img/contenu/barre/titrepage.png") no-repeat;height:129px;width:775px;margin-top: -14px;margin-left: -4px;padding-bottom:36px;padding-top:10px;padding-left:22px;font-size:22px;}
+#page .infos .status{float:left;font-size: 16px;font-weight: bold;margin-top:1px;margin-left:95px;width:60px;}
+#page .infos .points{float:left;font-size: 16px;margin-top:2px;margin-left:96px;width:75px;}
+#page .infos .msg{float:left;font-size: 16px;margin-top:2px;margin-left:101px;width:310px;}
+#page .barre_gauche{float:left;background: url("../img/contenu/barre/coter_gauche.png") no-repeat;height:523px;width:118px;margin-left:-1px;margin-top: -130px;}
+#page .barre_droit{float:right;background: url("../img/contenu/barre/coter_droit.png") no-repeat;height:523px;width:120px;margin-top: -130px;}
+#page .contenu{background: #151515 repeat-y;width:532px;margin-left:116px;border:1px solid black;margin-top: -130px;font-size:12px;padding-top:5px;padding-bottom:5px;}
+#page .news{background: url("../img/contenu/barre/news.png") no-repeat;height:34px;width:535px;margin-left:-2px;padding-top:5px;padding-left: 70px;font-size:16px;margin-bottom:-5px;}
+#page .news img{float:left;margin-left:-55px;margin-top:-2px;}
+#page .conteneur{background-color: #2b758a;width: 90%;margin-left: auto;margin-right: auto;border-radius: 10px;padding: 5px;padding-left:10px;padding-right: 10px;border: 1px solid black;margin-top: 10px;margin-bottom: 10px;}
+#page .conteneur p{opacity: 0.75;margin:0px;padding:0px;}
+#page .page{font-size:20px;}
+#page a{font-weight: bold;}
+#page table{color: black;width: 90%;margin-left:auto;margin-right: auto;text-align: center;}
+#page .table{border: 1px solid black;}
+#page .table .contenu td,#page table .contenu td{padding:8px;}
+#page .table .contenu:nth-child(2n+1),#page table .contenu{background-color: white;}
+#page .table .contenu:nth-child(2n+2){background-color: #e6e6e6;}
+#page .table .contenu:hover,#page table .contenu:hover{background-color:#dddddd;}
+#page .table .contenu .alignement{border: 1px solid black;}
+#page .table .header,#page table .header{font-size:16px;background-color: lightgray;text-shadow: 0px 0px 3px black;}
+#table{border: 1px solid black;background-color: #6e6e6e;}
+#table td{background-color: #6e6e6e;color:white;}
+#table th{background-color: lightgray;text-shadow: 0px 0px 3px black;border: 1px solid black;}
+#text{padding: 6px 12px;color: #555;background-color: #fff;border: 1px solid #ccc;border-radius: 4px;outline: none;}
+#text:focus{box-shadow: 0px 0px 10px activeborder;}
+#text-sizable{padding: 6px 12px;color: #555;background-color: #fff;border: 1px solid #ccc;border-radius: 4px;outline: none;width: 85%;}
+#text-sizable:focus{box-shadow: 0px 0px 10px activeborder;}
+#submit{color: #333;background-color: white;padding: 6px 12px;border: 1px solid #ccc;border-radius: 4px;outline: none;}
+#submit:hover{background-color: #ebebeb;}
+#vote_popup{background: url("../img/ombrage.png") repeat scroll 0% 0%; width: 100%; height: 100%; position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; color: #f0f0f0; font-size: 9px; text-align: center; z-index: 99999; display: none;}
+#vote_popup .msg{margin-top: 200px; width: 564px; margin-left: auto; margin-right: auto; display: block; background: transparent;}
+#vote_popup .msg .text{color: white; font-size: medium;}
+#vote_popup .msg .msg_neg{cursor: pointer; font-family: Tahoma; font-size: x-small;}
+#vote_popup .msg .msg_neg .text{font-size: xsmall;}

@@ -1,0 +1,28 @@
+    <div class="titre">Achat de points</div>
+    <div class="barre_gauche"></div>
+    <div class="barre_droit"></div>
+    <div class="contenu">
+    <script>
+var max=8;
+function compter(f) {
+	var txt=f.value;
+	var nb=txt.length;
+	if (nb>max) { 
+		alert("Pas plus de "+max+" caractères dans ce champ.");
+		f.value=txt.substring(0,max);
+		nb=max;
+	}
+}
+</script>
+<center>
+    Attendre le chargement complet des script !</br>
+    Si vous achetez un abonnement, vous pourrez bénéficier plus rapidement de la boutique. </br>
+	Si vous achetez un code, vous recevrez 550 points ou 770 points pour V.I.P. </br>
+    </br>
+
+<div id='starpass_253871'></div><script type='text/javascript' src='http://script.starpass.fr/script.php?idd=253871&amp;hidecodeform=1&amp;datas='></script><noscript>Veuillez activer le Javascript de votre navigateur s'il vous pla&icirc;t.<br /><a href='http://www.starpass.fr/'>Micropaiement StarPass</a></noscript></br>
+<form autocomplete="off" method="POST" action="/site/points/check/">
+    <input id="text" type="text" name="code1" placeholder="Entrer ici votre code" value="" onkeypress="compter(this)" required/>
+    <input id="submit" type="submit" name="valider" value="Envoyer"/>
+</form>
+</center>    

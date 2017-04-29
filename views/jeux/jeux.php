@@ -1,0 +1,1 @@
+<iframe src="<?php echo base_url(); ?>client/index.php" width="742" height="556" scrolling="no" frameborder="0"></iframe>

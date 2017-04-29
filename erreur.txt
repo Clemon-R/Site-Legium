@@ -1,0 +1,11 @@
+Erreur : SQLSTATE[HY000] [2002] Connection refused
+Erreur : SQLSTATE[HY000] [2002] Connection refused
+Erreur : SQLSTATE[HY000] [2002] Connection refused
+Erreur : SQLSTATE[HY000] [2002] Connection refused
+Erreur : SQLSTATE[HY000] [2002] Connection refused
+Erreur : SQLSTATE[HY000] [2002] Connection refused
+Erreur : SQLSTATE[HY000] [2002] Connection refused
+Erreur : SQLSTATE[HY000] [2002] Connection refused
+Erreur : SQLSTATE[HY000] [2002] Connection refused
+Erreur : SQLSTATE[HY000] [2002] Connection refused
+Erreur : SQLSTATE[HY000] [2002] Connection refused
